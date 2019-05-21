@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/cureentMatches"
+              android:icon="@drawable/ic_current_matches"
+              android:title="Matches"
+        />
+        <item android:id="@+id/auctions"
+              android:icon="@drawable/ic_auctions"
+              android:title="Auctions"
+        />
+        <item android:id="@+id/myLeagues"
+              android:icon="@drawable/ic_add_a_photo"
+              android:title="My leagues"
+        />
+        <item android:id="@+id/editProfile"
+              android:icon="@drawable/ic_edit"
+              android:title="Edit Profile"
+        />
+        <item android:id="@+id/requestForLeague"
+              android:icon="@drawable/ic_request_league"
+              android:title="Request For League"
+              />
+        <item android:id="@+id/about"
+              android:icon="@drawable/ic_about_us"
+              android:title="About us"
+        />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item   android:id="@+id/invitePeople"
+                    android:icon="@drawable/ic_invite_people"
+                    android:title="Invite People"/>
+            <item   android:id="@+id/helpNfeedback"
+                    android:icon="@drawable/ic_about"
+                    android:title="Help ? and feedback"/>
+            <item   android:id="@+id/signout"
+                    android:icon="@drawable/ic_signout"
+                    android:title="Sign out"/>
+        </menu>
+    </item>
+
+</menu>

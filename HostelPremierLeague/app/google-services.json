@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "991412319427",
+    "firebase_url": "https://hostelpremierleague-a6d38.firebaseio.com",
+    "project_id": "hostelpremierleague-a6d38",
+    "storage_bucket": "hostelpremierleague-a6d38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991412319427:android:67d8b61ed67d2968",
+        "android_client_info": {
+          "package_name": "com.example.hostelpremierleague"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991412319427-j05lbpdjvrhir83t0a9k80q5q9qqgu7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hostelpremierleague",
+            "certificate_hash": "3a50d2b2851c1c53a5248c21074ec7b534994f31"
+          }
+        },
+        {
+          "client_id": "991412319427-0751dt673dpqhbm3fsjdhfs4o8vrokoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFe0TW00eqbekMsAidKKQMjyYIKEFvqkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991412319427-0751dt673dpqhbm3fsjdhfs4o8vrokoh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

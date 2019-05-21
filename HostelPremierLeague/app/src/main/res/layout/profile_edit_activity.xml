@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                                                                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                                                                                             xmlns:tools="http://schemas.android.com/tools"
+                                                                                                                             android:layout_width="match_parent"
+                                                                                                                             android:layout_height="wrap_content">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        >
+        <TextView
+                android:text="@string/editprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewEditProfile"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:fontFamily="@font/biryani_semibold"
+                android:textSize="30sp"
+                tools:text="@string/editprofile"
+                android:textColor="@android:color/black"
+                android:padding="8dp"/>
+        <Button
+                android:text="Select Photo"
+                android:background="@drawable/selct_photo_button"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/selectPhotoButton"
+                android:layout_marginTop="100dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/biryani_semibold"
+                android:textSize="18sp"
+                tools:text="@string/editprofile"
+                android:textColor="@android:color/white"
+                android:padding="8dp"
+                android:layout_centerHorizontal="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center" android:textSize="20sp" android:fontFamily="@font/biryani_semibold"
+                android:textColor="@android:color/black" android:text="@string/name"/>
+        <TextView
+                android:text="@string/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewPhoneNumber"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="310dp"
+                android:textColor="@android:color/black" android:textSize="20sp"
+                android:fontFamily="@font/biryani_semibold" android:textAlignment="center"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editTextPhone"
+                android:layout_marginTop="360dp"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/phone" android:textSize="20sp" android:textAlignment="center"
+                android:fontFamily="@font/biryani_semibold" android:background="@drawable/edit_text_style"/>
+        <TextView
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewEmail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="415dp"
+                android:fontFamily="@font/biryani_semibold" android:textSize="20sp"
+                android:textColor="@android:color/black" android:textAlignment="center"/>
+        <TextView
+                android:text="course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCourse"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="465dp"
+                android:fontFamily="@font/biryani_semibold" android:textSize="20sp"
+                android:textColor="@android:color/black" android:textAlignment="center"
+        />
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextCourse"
+                android:layout_marginTop="515dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edit_text_style" android:fontFamily="@font/biryani_semibold"
+                android:textSize="20sp" android:textColor="@android:color/black" android:textAlignment="center"
+                android:hint="@string/yearNbranch"/>
+        <TextView
+                android:text="Position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewPositon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="565dp"
+                android:textSize="20sp" android:textColor="@android:color/black" android:textAlignment="center"
+                android:fontFamily="@font/biryani_semibold"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextPosition" android:background="@drawable/edit_text_style"
+                android:textAlignment="center" android:textColor="@android:color/black"
+                android:fontFamily="@font/biryani_semibold"
+                android:hint="New Position"
+                android:layout_marginTop="615dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+        <Button
+                android:text="@string/common_google_play_services_update_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonUpdate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="675dp"
+                style="@android:style/Widget.DeviceDefault.Button"
+                android:background="@color/design_default_color_primary" android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:id="@+id/circleImageView"/>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

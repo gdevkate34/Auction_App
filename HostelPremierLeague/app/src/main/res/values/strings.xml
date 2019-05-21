@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Plan Your League</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="registerButton">Register</string>
+    <string name="selectButton">Select Photo</string>
+    <string name="name">Fullname</string>
+    <string name="yearNbranch">Year And Branch</string>
+    <string name="position">Position</string>
+    <string name="phone">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="AccountLogin">Account Login</string>
+    <string name="accountRegister">Register Yourself</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="currentMatches">Leagues Ongoing</string>
+    <string name="addPhotos">Add photos</string>
+    <string name="about">About us</string>
+    <string name="helpNfeedback">Help and feedback</string>
+    <string name="invitePeople">Invite People</string>
+    <string name="auctions">Auctions</string>
+    <string name="signOut">Sign Out</string>
+    <string name="editprofile">Edit Your profile</string>
+    <string name="edit">Edit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="searchLeague">You can search for your leagues here</string>
+    <string name="searchResults">Search Results :</string>
+    <string name="requestLeague">Request a League</string>
+</resources>

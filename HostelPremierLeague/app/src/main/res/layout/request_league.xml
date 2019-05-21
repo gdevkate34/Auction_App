@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardViewRequestLeague" android:padding="16dp"
+                android:layout_marginTop="16dp">
+            <TextView
+                    android:text="@string/requestLeague"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textViewRequestLeague" android:textSize="24sp"
+                    android:fontFamily="@font/biryani_semibold" android:layout_margin="16dp" android:padding="8dp"
+                    android:textAlignment="center" android:textColor="@android:color/black" android:textStyle="bold"
+                    android:textAllCaps="true"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Enter Name of the league"
+                    android:ems="10"
+                    android:id="@+id/editTextNameOfLeague"
+                    android:layout_marginTop="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/edit_text_style" android:fontFamily="@font/biryani_semibold"
+                    android:textColor="@android:color/black" android:padding="8dp" android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editTextType" android:layout_marginTop="170dp" android:padding="8dp"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+                    android:fontFamily="@font/biryani_semibold" android:textColor="@android:color/black"
+                    android:hint="Sports type (e.g. Cricket, football)" android:background="@drawable/edit_text_style"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/editTextDateOfLeague" android:layout_marginTop="240dp" android:padding="8dp"
+                    android:layout_marginLeft="16sp" android:layout_marginRight="16dp" android:hint="Date"
+                    android:fontFamily="@font/biryani_semibold" android:textColor="@android:color/black"
+                    android:background="@drawable/edit_text_style"/>
+            <Button
+                    android:text="Request"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/buttonRequest" android:padding="8dp"
+                    android:layout_marginTop="310dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+                    android:background="@drawable/button_style" android:fontFamily="@font/biryani_semibold"
+                    android:textSize="18sp" android:textColor="@android:color/white" android:textAlignment="center"
+                    android:textStyle="bold"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardViewCaptains"
+                android:layout_below="@+id/cardViewRequestLeague"
+                android:visibility="visible"
+                android:layout_marginTop="24dp">
+
+            <TextView
+                    android:text="Time to  appoint captains"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewAppointCaptian"
+                    android:layout_marginTop="0dp"
+                    android:textSize="18sp" android:textStyle="bold" android:textAlignment="center"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+                    android:fontFamily="@font/biryani_semibold" android:textColor="@android:color/black"
+                    android:background="@android:color/holo_green_dark" android:visibility="invisible"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editTextNumberOfCaptains"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+                    android:background="@drawable/edit_text_style" android:hint="Number of captains"
+                    android:fontFamily="@font/biryani_semibold" android:textColor="@android:color/black"
+                    android:padding="8dp" android:visibility="invisible"/>
+            <Button
+                    android:text="Done"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonDone"
+                    android:layout_marginTop="111dp"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:padding="8dp"
+                    android:background="@drawable/button_style" android:textSize="18sp"
+                    android:textColor="@android:color/white" android:textStyle="bold" android:visibility="invisible"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editTextCaptain"
+                    android:hint="Search Captain by Emaild " android:fontFamily="@font/biryani_semibold"
+                    android:textColor="@android:color/black" android:background="@drawable/edit_text_style"
+                    android:layout_marginTop="166dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+                    android:padding="8dp" android:visibility="invisible"/>
+            <Button
+                    android:text="Search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buttonSearchCaptain"
+                    android:layout_marginTop="230dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:padding="8dp"
+                    android:background="@drawable/button_style" android:textColor="@android:color/white"
+                    android:textSize="18sp" android:fontFamily="@font/biryani_semibold" android:textStyle="bold"
+                    android:visibility="invisible"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textViewCaptainResult"
+                    android:layout_marginTop="290dp" android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp" android:fontFamily="@font/biryani_semibold"
+                    android:textSize="24sp" android:textColor="@android:color/black" android:textStyle="bold"
+                    android:textAlignment="center" android:text="Results for Captains:"
+                    android:visibility="invisible"
+            />
+            <TextView
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewCaptain"
+                    android:visibility="invisible"
+                    android:fontFamily="@font/biryani_semibold" android:textSize="18sp"
+                    android:textColor="@android:color/black" android:layout_marginTop="350dp"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:textAlignment="center"
+                    android:padding="8dp" android:background="@android:color/darker_gray"/>
+            <Button
+                    android:text="Appoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" android:id="@+id/buttonAppoint"
+                    android:layout_marginTop="440dp"
+                    android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+                    android:background="@drawable/button_style" android:padding="8dp"
+                    android:textColor="@android:color/white" android:layout_marginBottom="100dp"
+                    android:visibility="invisible"
+                    android:fontFamily="@font/biryani_semibold" android:textSize="18sp" android:textStyle="bold"/>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
